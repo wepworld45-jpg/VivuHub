@@ -158,8 +158,8 @@
 
 ## Uploaded Books/Music interaction reference
 
-- [ ] Read and map the uploaded snippet’s interaction model and visual behavior.
-- [ ] Compare the reference with the current API-backed Books and Music page.
-- [ ] Adapt the strongest interaction patterns without changing the hero section.
-- [ ] Verify APIs, responsive behavior, accessibility, and GitHub Pages deployment.
+- [x] Read and map the uploaded snippet’s interaction model and visual behavior.
+- [x] Compare the reference with the current API-backed Books and Music page.
+- [x] Adapt the strongest interaction patterns without changing the hero section.
+- [x] Verify APIs, responsive behavior, accessibility, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the reference-based Books/Music update.
