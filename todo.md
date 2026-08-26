@@ -60,3 +60,10 @@
 - [x] Change the visible hero branding and title to VivuHub.
 - [x] Verify the renamed hero on desktop and mobile.
 - [x] Sync the rename and verify GitHub Pages redeployment.
+
+## Hero CTA Discovery Modal
+
+- [x] Inspect the current hero CTA and discovery content.
+- [x] Wire the hero CTA to an accessible discovery modal.
+- [x] Verify open, close, keyboard, and responsive behavior.
+- [x] Sync the update and verify GitHub Pages redeployment.
