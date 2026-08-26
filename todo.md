@@ -132,8 +132,8 @@
 
 ## Think Make Repeat interaction
 
-- [ ] Audit the current philosophy section and its existing process steps.
-- [ ] Define deeper creative-process layers for Think, Make, and Repeat.
-- [ ] Implement accessible click and keyboard interactions with a visible detail panel.
-- [ ] Verify mobile behavior and deploy the interaction update to GitHub Pages.
+- [x] Audit the current philosophy section and its existing process steps.
+- [x] Define deeper creative-process layers for Think, Make, and Repeat.
+- [x] Implement accessible click and keyboard interactions with a visible detail panel.
+- [x] Verify mobile behavior and deploy the interaction update to GitHub Pages.
 - [ ] Save a checkpoint for the creative-process enhancement.
