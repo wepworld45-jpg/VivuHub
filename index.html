@@ -112,5 +112,9 @@ Error generating stack: `+u.message+`
 /* ToonHub continuation interaction: filter cards instantly and keep keyboard state visible. */
 (function(){var chips=[].slice.call(document.querySelectorAll('.th-chip'));var cards=[].slice.call(document.querySelectorAll('.th-card'));chips.forEach(function(chip){chip.addEventListener('click',function(){var filter=chip.getAttribute('data-filter');chips.forEach(function(item){item.setAttribute('aria-pressed',String(item===chip));});cards.forEach(function(card){var show=filter==='all'||card.getAttribute('data-world')===filter;card.hidden=!show;});});});})();
 </script>
+<script>
+/* ToonHub hero autoplay: pauses on hover, touch, tab switching, and reduced-motion preferences. */
+(function(){var started=!1,hero=document.getElementById("root"),resumeTimer=0;function init(){if(started||!hero)return;var next=hero.querySelector('button[aria-label="Next"]');if(!next){window.setTimeout(init,180);return}started=!0;var paused=!1,reduce=window.matchMedia("(prefers-reduced-motion: reduce)");if(reduce.matches)return;function pause(){paused=!0}function resume(){paused=!1}function resumeAfterTouch(){window.clearTimeout(resumeTimer);resumeTimer=window.setTimeout(resume,1800)}var timer=window.setInterval(function(){if(!paused&&!document.hidden)next.click()},4500);hero.addEventListener("mouseenter",pause);hero.addEventListener("mouseleave",resume);hero.addEventListener("touchstart",pause,{passive:!0});hero.addEventListener("touchend",resumeAfterTouch,{passive:!0});hero.addEventListener("touchcancel",resumeAfterTouch,{passive:!0});document.addEventListener("visibilitychange",function(){if(document.hidden)pause();else resume()});window.addEventListener("pagehide",function(){window.clearInterval(timer);window.clearTimeout(resumeTimer)},{once:!0})}window.addEventListener("load",init);window.setTimeout(init,0)})();
+</script>
 </body>
 </html>

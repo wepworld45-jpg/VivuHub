@@ -46,3 +46,10 @@
 - [x] Add touch swipe detection with a sensible threshold and direction handling.
 - [x] Verify mobile swipe behavior and desktop control regressions.
 - [x] Sync the update and verify GitHub Pages redeployment.
+
+## Hero Carousel Autoplay
+
+- [x] Inspect the current hero carousel state and gesture logic.
+- [x] Add autoplay with pause-on-hover and pause-on-touch behavior.
+- [x] Verify autoplay, arrows, swipe gestures, and responsive behavior.
+- [x] Sync the update and verify GitHub Pages redeployment.
