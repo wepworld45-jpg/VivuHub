@@ -294,3 +294,11 @@
 - [x] Fix confirmed mobile, animation, accessibility, loading, and playback issues.
 - [x] Verify the build and representative desktop/mobile flows.
 - [ ] Save a checkpoint for the Antideploy hardening pass.
+
+## Antideploy stale runtime investigation
+
+- [ ] Confirm the current GitHub branch and commit contain the Procfile and updated runtime files.
+- [ ] Inspect package metadata and Antideploy-visible startup configuration for stale pnpm signals.
+- [ ] Apply an explicit runtime configuration or deployment documentation fix if Antideploy can ignore Procfile discovery.
+- [ ] Rebuild and run the exact corrected command with dynamic PORT handling.
+- [ ] Save a checkpoint and provide the exact Antideploy redeploy configuration.
