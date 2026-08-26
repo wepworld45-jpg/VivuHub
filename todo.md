@@ -146,3 +146,12 @@
 - [x] Preserve hero colors, fonts, typography, borders, and transitions across the new page.
 - [x] Verify responsive effects, accessibility, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the Books and Music showcase.
+
+## Books + Music public API integration
+
+- [x] Choose and validate public no-key API sources for books and music metadata.
+- [x] Define safe client behavior, loading states, error states, and curated fallbacks.
+- [x] Add live API-backed metadata to the Books and Music sections without playback.
+- [x] Preserve the hero and shared VivuHub visual system.
+- [x] Verify responses, mobile behavior, accessibility, and GitHub Pages deployment.
+- [ ] Save a checkpoint for the public API integration.
