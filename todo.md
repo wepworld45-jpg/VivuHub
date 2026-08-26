@@ -163,3 +163,12 @@
 - [x] Adapt the strongest interaction patterns without changing the hero section.
 - [x] Verify APIs, responsive behavior, accessibility, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the reference-based Books/Music update.
+
+## Music spring, mood colors, and previews
+
+- [ ] Audit current Music cards and available preview URLs.
+- [ ] Define one-preview-at-a-time playback and accessible control behavior.
+- [ ] Add 1-second spring motion and mood-specific tape colors.
+- [ ] Add short preview playback without changing the hero.
+- [ ] Verify audio controls, mobile behavior, APIs, and GitHub Pages deployment.
+- [ ] Save a checkpoint for the Music enhancement.
