@@ -53,3 +53,10 @@
 - [x] Add autoplay with pause-on-hover and pause-on-touch behavior.
 - [x] Verify autoplay, arrows, swipe gestures, and responsive behavior.
 - [x] Sync the update and verify GitHub Pages redeployment.
+
+## Hero Brand Rename
+
+- [x] Inspect the current hero branding and document metadata.
+- [x] Change the visible hero branding and title to VivuHub.
+- [x] Verify the renamed hero on desktop and mobile.
+- [x] Sync the rename and verify GitHub Pages redeployment.
