@@ -81,3 +81,11 @@
 - [x] Personalize the surrounding content around cinema, ideas, experiments, books, music, and projects.
 - [x] Verify the updated page on desktop and mobile.
 - [x] Sync the update and verify GitHub Pages redeployment.
+
+## VivuHub Dedicated Subpages
+
+- [x] Define routes and content structure for Cinema, Ideas, Books & Music, and Projects.
+- [x] Implement the four subpages with shared navigation and back links.
+- [x] Connect homepage cards, filters, and CTAs to the subpage routes.
+- [x] Verify all routes on desktop and mobile.
+- [x] Sync the update and verify GitHub Pages redeployment.
