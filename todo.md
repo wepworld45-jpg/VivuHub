@@ -222,5 +222,5 @@
 - [x] Define richer project states, detail layers, and build-log content.
 - [x] Add interactive project cards, progress states, and build logs.
 - [x] Preserve the existing hero, colors, typography, and editorial system.
-- [ ] Verify desktop/mobile behavior and GitHub Pages deployment.
+- [x] Verify desktop/mobile behavior and GitHub Pages deployment.
 - [ ] Save a checkpoint for the Projects Command Center update.
