@@ -32,3 +32,10 @@
 - [x] Add tactile hover, image, arrow, and focus transitions.
 - [x] Verify desktop and mobile appearance.
 - [x] Sync the interaction update and verify GitHub Pages redeployment.
+
+## Discovery Card Touch States
+
+- [x] Inspect the current card interaction states.
+- [x] Add touch-friendly pressed feedback without harming hover or focus states.
+- [x] Verify mobile and desktop interaction styling.
+- [ ] Sync the update and verify GitHub Pages redeployment.
