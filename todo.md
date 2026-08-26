@@ -45,4 +45,4 @@
 - [x] Inspect the existing hero carousel controls and state logic.
 - [x] Add touch swipe detection with a sensible threshold and direction handling.
 - [x] Verify mobile swipe behavior and desktop control regressions.
-- [ ] Sync the update and verify GitHub Pages redeployment.
+- [x] Sync the update and verify GitHub Pages redeployment.
