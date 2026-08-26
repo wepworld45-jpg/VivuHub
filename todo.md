@@ -109,5 +109,5 @@
 
 - [x] Audit mobile Cinema index and detail-page behavior.
 - [x] Refine touch targets, spacing, typography, and card feedback.
-- [ ] Verify mobile layouts and deploy the responsive improvements to GitHub Pages.
+- [x] Verify mobile layouts and deploy the responsive improvements to GitHub Pages.
 - [ ] Save a checkpoint for the mobile smoothing pass.
