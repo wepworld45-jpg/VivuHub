@@ -31,4 +31,4 @@
 - [x] Inspect current discovery-card hover and focus behavior.
 - [x] Add tactile hover, image, arrow, and focus transitions.
 - [x] Verify desktop and mobile appearance.
-- [ ] Sync the interaction update and verify GitHub Pages redeployment.
+- [x] Sync the interaction update and verify GitHub Pages redeployment.
