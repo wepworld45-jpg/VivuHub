@@ -252,3 +252,9 @@
 - [x] Add status filters that work with the existing mood filters.
 - [x] Persist status changes and verify accessible mobile interactions.
 - [x] Save a checkpoint for the reading-status enhancement.
+
+## Books Map Reading-first ordering
+
+- [x] Sort Reading books to the top with stable ordering for the remaining cards.
+- [x] Verify sorting remains correct with mood/status filters and status edits.
+- [x] Save a checkpoint for the Reading-first ordering enhancement.

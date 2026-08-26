@@ -132,7 +132,7 @@
       <div class="map-filter-group"><span class="map-filter-label">Filter by reading status</span><div class="map-filters" id="statusFilters" role="group" aria-label="Filter book keepers by reading status"></div></div>
     </div>
     <section class="map-grid" id="grid" aria-live="polite" aria-label="Book keepers"></section>
-    <div class="map-meta"><span>Scatter: varied rotation • hard shadow • tap to unbox</span><span id="countLabel" aria-live="polite"></span></div>
+    <div class="map-meta"><span>Reading first • stable order • hard shadow • tap to unbox</span><span id="countLabel" aria-live="polite"></span></div>
     <dialog class="map-dialog" id="map-dialog" aria-labelledby="map-dialog-title" aria-describedby="map-dialog-synopsis"><button class="map-dialog-close" id="map-dialog-close" type="button" aria-label="Close book synopsis">×</button><div class="map-label">Personal reading preview</div><h2 id="map-dialog-title">Book title</h2><p class="map-dialog-meta" id="map-dialog-meta"></p><p class="map-dialog-synopsis" id="map-dialog-synopsis"></p><div class="map-dialog-grid"><div><div class="map-label">Keeper note</div><p id="map-dialog-note"></p></div><div><div class="map-label">Read for</div><p id="map-dialog-readfor"></p></div></div><a class="map-submit" id="map-dialog-link" href="https://openlibrary.org" target="_blank" rel="noreferrer">Open Library record ↗</a></dialog>
     <footer class="map-footer"><span>VIVUHUB / BOOKS MAP</span><a href="./books-music.html">Return to the full shelf →</a></footer>
   </main>
@@ -226,7 +226,7 @@
     function render(){
       renderFilters();
       grid.innerHTML='';
-      const list=books.map((book,index)=>({...book,sourceIndex:index,status:normalizeStatus(book.status)})).filter(book=>(activeMood==='ALL'||book.mood===activeMood)&&(activeStatus==='ALL'||book.status===activeStatus));
+      const list=books.map((book,index)=>({...book,sourceIndex:index,status:normalizeStatus(book.status)})).filter(book=>(activeMood==='ALL'||book.mood===activeMood)&&(activeStatus==='ALL'||book.status===activeStatus)).sort((a,b)=>Number(b.status==='READING')-Number(a.status==='READING')||a.sourceIndex-b.sourceIndex);
       countLabel.textContent=`${list.length} KEEPER${list.length===1?'':'S'} • ${activeMood==='ALL'?'ALL MOODS':activeMood} / ${activeStatus==='ALL'?'ALL STATUS':activeStatus}`;
       list.forEach((book,visibleIndex)=>{
         const isOpen=openId===book.sourceIndex;

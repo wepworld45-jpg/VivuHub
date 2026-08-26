@@ -18,3 +18,7 @@ Cards now show a To read, Reading, or Finished badge. The first card’s status 
 ## Status visual verification
 
 Desktop capture shows separate Mood and Reading Status filter groups above the card wall, while every card carries a compact status badge. Mobile capture shows the groups wrapping cleanly and cards retaining readable status badges without horizontal overflow.
+
+## Reading-first ordering verification
+
+After changing The Psychology of Money to Reading, it moved to position 01 and displayed the Reading badge. The MONEY mood filter preserved it as the first result, followed by the other MONEY keepers in their original order. The sample status was returned to To read after verification. The sort uses Reading priority followed by the original source index, so cards with other statuses retain stable ordering.
