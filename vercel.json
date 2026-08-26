@@ -1,0 +1,8 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build:vercel",
+  "outputDirectory": "dist/public",
+  "installCommand": "npm install --include=dev",
+  "cleanUrls": false,
+  "trailingSlash": false
+}

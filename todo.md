@@ -302,3 +302,17 @@
 - [x] Apply an explicit runtime configuration or deployment documentation fix if Antideploy can ignore Procfile discovery.
 - [x] Rebuild and run the exact corrected command with dynamic PORT handling.
 - [ ] Save a checkpoint and provide the exact Antideploy redeploy configuration.
+
+## Vercel deployment investigation
+
+- [ ] Audit Vercel-visible project settings and the repository’s build/output assumptions.
+- [ ] Add explicit Vercel configuration for the static build output and subpage fallbacks.
+- [ ] Build and verify the Vercel artifact without changing the orange 3D hero.
+- [ ] Push the Vercel fix and save a checkpoint with redeploy instructions.
+
+## Vercel deployment
+
+- [x] Confirm the GitHub repository and Vercel project target.
+- [x] Validate the Vercel build/output settings against the current repository.
+- [ ] Deploy the static build using the authenticated Vercel session or hand off the final confirmation.
+- [ ] Verify the live Vercel homepage and representative subpages.
