@@ -180,3 +180,11 @@
 - [x] Generate and integrate custom fallback visuals without changing the hero.
 - [x] Verify artwork rendering, preview behavior, mobile layout, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the custom mood artwork release.
+
+## Expanded personal Music taste list
+
+- [ ] Add all 26 supplied song titles exactly to the curated Music data.
+- [ ] Assign mood tags and artwork fallbacks without inventing artist names.
+- [ ] Extend preview lookup coverage where title/artist metadata is available.
+- [ ] Verify filters, title rendering, mobile layout, and GitHub Pages deployment.
+- [ ] Save a checkpoint for the expanded Music taste list.
