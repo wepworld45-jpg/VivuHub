@@ -175,8 +175,8 @@
 
 ## Custom mood artwork fallbacks
 
-- [ ] Audit which Music mood cards lack preview artwork.
-- [ ] Define a shared visual direction for custom mood artwork.
-- [ ] Generate and integrate custom fallback visuals without changing the hero.
-- [ ] Verify artwork rendering, preview behavior, mobile layout, and GitHub Pages deployment.
+- [x] Audit which Music mood cards lack preview artwork.
+- [x] Define a shared visual direction for custom mood artwork.
+- [x] Generate and integrate custom fallback visuals without changing the hero.
+- [x] Verify artwork rendering, preview behavior, mobile layout, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the custom mood artwork release.
