@@ -22,3 +22,15 @@ Desktop capture shows separate Mood and Reading Status filter groups above the c
 ## Reading-first ordering verification
 
 After changing The Psychology of Money to Reading, it moved to position 01 and displayed the Reading badge. The MONEY mood filter preserved it as the first result, followed by the other MONEY keepers in their original order. The sample status was returned to To read after verification. The sort uses Reading priority followed by the original source index, so cards with other statuses retain stable ordering.
+
+## Books Map music player verification
+
+The Books Map now includes a dark “Read with a pulse” widget with eight curated tracks from the VivuHub taste map. The iTunes Search API resolved eight short preview URLs in the local preview. A real browser click started the YALA (Slowed) preview and showed the native 30-second audio controls; switching to Gani (feat. Manni Sandhu) stopped the first preview and started the Punjabi preview; clicking Gani again paused it. Track labels, mood metadata, loading status, and single-player behavior rendered correctly.
+
+## Music widget responsive verification
+
+Desktop capture shows the dark listening layer with a single native audio player and eight compact track cards above the book filters. Mobile capture stacks the player controls and keeps the eight tracks in a two-column grid without horizontal overflow; the book filters and card wall remain intact below. The existing Books Map visual language and Reading-first metadata remain consistent.
+
+## Fresh-load smoke test
+
+A fresh Books Map load confirmed one audio player, eight track buttons, eight enabled iTunes previews, 20 book cards, seven mood-filter pills, and four reading-status filter pills. The player status reported “8 short previews ready • tap a signal to listen.”

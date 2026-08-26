@@ -258,3 +258,10 @@
 - [x] Sort Reading books to the top with stable ordering for the remaining cards.
 - [x] Verify sorting remains correct with mood/status filters and status edits.
 - [x] Save a checkpoint for the Reading-first ordering enhancement.
+
+## Books Map music player
+
+- [x] Audit the existing music preview data and Books Map layout.
+- [x] Add a compact music player widget with preview track selection.
+- [x] Verify playback controls, track switching, accessibility, filters, and mobile layout.
+- [x] Save a checkpoint for the Books Map music player.
