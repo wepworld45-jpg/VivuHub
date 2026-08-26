@@ -111,3 +111,12 @@
 - [x] Refine touch targets, spacing, typography, and card feedback.
 - [x] Verify mobile layouts and deploy the responsive improvements to GitHub Pages.
 - [ ] Save a checkpoint for the mobile smoothing pass.
+
+## Vivu Pattern Engine
+
+- [x] Define the external-brain experience from the attached personal library.
+- [x] Audit current homepage and subpage entry points for the new pattern layer.
+- [x] Implement an interactive pattern map connecting influences, questions, experiments, and projects.
+- [x] Add the attached personal library content as structured, browsable data.
+- [ ] Verify responsive behavior, accessibility, and GitHub Pages deployment.
+- [ ] Save a checkpoint for the Pattern Engine release.
