@@ -96,3 +96,11 @@
 - [x] Prepare image assets and integrate them into the Cinema feature panels.
 - [x] Verify image crops, captions, contrast, and responsive behavior.
 - [x] Sync the update and verify GitHub Pages redeployment.
+
+## Cinema detail views
+
+- [ ] Audit the existing Cinema page and static publishing structure.
+- [ ] Define detail-page content for personal notes, tags, and why-it-matters sections.
+- [ ] Implement dedicated detail views and link each Cinema item to its detail page.
+- [ ] Verify responsive navigation, asset loading, and GitHub Pages deployment.
+- [ ] Save a checkpoint for the completed Cinema detail views.
