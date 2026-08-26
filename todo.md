@@ -172,3 +172,11 @@
 - [x] Add short preview playback without changing the hero.
 - [x] Verify audio controls, mobile behavior, APIs, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the Music enhancement.
+
+## Custom mood artwork fallbacks
+
+- [ ] Audit which Music mood cards lack preview artwork.
+- [ ] Define a shared visual direction for custom mood artwork.
+- [ ] Generate and integrate custom fallback visuals without changing the hero.
+- [ ] Verify artwork rendering, preview behavior, mobile layout, and GitHub Pages deployment.
+- [ ] Save a checkpoint for the custom mood artwork release.
