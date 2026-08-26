@@ -129,3 +129,11 @@
 - [ ] Keep the 3D hero and visual language consistent while making the ecosystem feel more alive.
 - [x] Verify mobile behavior, accessibility, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the personalized ecosystem release.
+
+## Think Make Repeat interaction
+
+- [ ] Audit the current philosophy section and its existing process steps.
+- [ ] Define deeper creative-process layers for Think, Make, and Repeat.
+- [ ] Implement accessible click and keyboard interactions with a visible detail panel.
+- [ ] Verify mobile behavior and deploy the interaction update to GitHub Pages.
+- [ ] Save a checkpoint for the creative-process enhancement.
