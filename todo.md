@@ -237,4 +237,4 @@
 - [x] Implement the dark Books Map experience as a new page without changing the existing hero or Books + Music page.
 - [x] Connect the new page from an existing VivuHub entry point.
 - [x] Verify filters, keeper expansion, add-keeper form, accessibility, and mobile layout.
-- [ ] Save a checkpoint for the Books Map integration.
+- [x] Save a checkpoint for the Books Map integration.
