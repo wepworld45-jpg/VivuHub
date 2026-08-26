@@ -188,3 +188,23 @@
 - [x] Extend preview lookup coverage where title/artist metadata is available.
 - [x] Verify filters, title rendering, mobile layout, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the expanded Music taste list.
+
+## Publish rolled-back version
+
+- [x] Push the restored rollback state to the VivuHub GitHub repository.
+- [x] Wait for and verify the GitHub Pages deployment.
+
+## Antideploy synchronization
+
+- [ ] Compare the Antideploy site with the latest GitHub Pages rollback.
+- [ ] Identify whether Antideploy is connected to the VivuHub repository or needs separate access.
+- [ ] Synchronize the deployment if a safe source connection is available.
+- [ ] Verify the synchronized Antideploy site.
+
+## Character loading optimization
+
+- [x] Audit external character image sources, dimensions, and loading order.
+- [x] Create compact local responsive character assets without changing the visual composition.
+- [x] Add preload, lazy-loading, decoding, and layout-stability improvements for desktop and mobile.
+- [x] Verify every character asset loads on GitHub Pages at desktop and mobile sizes.
+- [ ] Save a checkpoint for the character loading optimization.
