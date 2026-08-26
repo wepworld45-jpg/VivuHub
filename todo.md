@@ -251,4 +251,4 @@
 - [x] Add editable To read, Reading, and Finished statuses to book cards.
 - [x] Add status filters that work with the existing mood filters.
 - [x] Persist status changes and verify accessible mobile interactions.
-- [ ] Save a checkpoint for the reading-status enhancement.
+- [x] Save a checkpoint for the reading-status enhancement.
