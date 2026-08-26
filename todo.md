@@ -25,3 +25,10 @@
 - [x] Implement the new sections and interactions without disrupting the hero.
 - [x] Verify desktop and mobile rendering.
 - [x] Sync the update to VivuHub and verify GitHub Pages redeployment.
+
+## Discovery Card Interactions
+
+- [x] Inspect current discovery-card hover and focus behavior.
+- [x] Add tactile hover, image, arrow, and focus transitions.
+- [x] Verify desktop and mobile appearance.
+- [ ] Sync the interaction update and verify GitHub Pages redeployment.

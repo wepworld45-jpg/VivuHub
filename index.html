@@ -36,17 +36,23 @@ Error generating stack: `+u.message+`
 .th-chip{border:1.5px solid var(--th-ink);padding:10px 16px;background:transparent;border-radius:999px;font:700 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;transition:background .18s,color .18s,transform .18s}
 .th-chip:hover,.th-chip[aria-pressed=true]{background:var(--th-ink);color:var(--th-paper);transform:translateY(-2px)}
 .th-card-grid{display:grid;grid-template-columns:1.1fr .85fr .85fr;gap:18px;position:relative}
-.th-card{min-height:420px;position:relative;overflow:hidden;border:2px solid var(--th-ink);background:var(--th-red);display:flex;flex-direction:column;justify-content:space-between;padding:24px;transition:transform .22s cubic-bezier(.23,1,.32,1),box-shadow .22s}
+.th-card{min-height:420px;position:relative;overflow:hidden;isolation:isolate;border:2px solid var(--th-ink);background:var(--th-red);display:flex;flex-direction:column;justify-content:space-between;padding:24px;will-change:transform;transition:transform .42s cubic-bezier(.23,1,.32,1),box-shadow .42s cubic-bezier(.23,1,.32,1),border-color .22s}
+.th-card:before{content:"";position:absolute;inset:-35% -45%;z-index:0;pointer-events:none;opacity:.32;background:linear-gradient(112deg,transparent 38%,rgba(255,255,255,.58) 48%,transparent 58%);transform:translateX(-78%) skewX(-16deg);transition:transform .72s cubic-bezier(.23,1,.32,1)}
 .th-card:nth-child(2){background:var(--th-yellow);transform:rotate(1.2deg);margin-top:28px}
 .th-card:nth-child(3){background:var(--th-blue);color:#fff;transform:rotate(-1deg);margin-top:56px}
-.th-card:hover{transform:translateY(-8px) rotate(0);box-shadow:10px 12px 0 var(--th-ink)}
-.th-card-visual{position:absolute;inset:auto 0 0;display:flex;justify-content:center;align-items:end;height:72%;pointer-events:none}
-.th-card-visual img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;opacity:.86}
+.th-card:hover,.th-card:focus-visible{transform:translateY(-10px) rotate(0);box-shadow:12px 14px 0 var(--th-ink);border-color:var(--th-ink)}
+.th-card:hover:before,.th-card:focus-visible:before{transform:translateX(78%) skewX(-16deg)}
+.th-card-visual{position:absolute;inset:auto 0 0;display:flex;justify-content:center;align-items:end;height:72%;pointer-events:none;z-index:0}
+.th-card-visual img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;opacity:.86;will-change:transform;transition:transform .48s cubic-bezier(.23,1,.32,1),filter .48s cubic-bezier(.23,1,.32,1)}
+.th-card:hover .th-card-visual img,.th-card:focus-visible .th-card-visual img{transform:scale(1.08) translateY(-3%);filter:saturate(1.12) contrast(1.03)}
 .th-card:nth-child(3) img{mix-blend-mode:normal;opacity:.9}
-.th-card-copy{position:relative;z-index:1;max-width:260px}
+.th-card-copy{position:relative;z-index:1;max-width:260px;transition:transform .32s cubic-bezier(.23,1,.32,1)}
+.th-card:hover .th-card-copy,.th-card:focus-visible .th-card-copy{transform:translateY(-5px)}
 .th-card h3{font-size:clamp(32px,4vw,58px);margin:0 0 10px}
 .th-card p{font-size:14px;line-height:1.45;max-width:235px}
-.th-card-arrow{position:relative;z-index:1;align-self:end;border:1.5px solid currentColor;border-radius:50%;width:44px;height:44px;display:grid;place-items:center;font-size:22px}
+.th-card-arrow{position:relative;z-index:1;align-self:end;border:1.5px solid currentColor;border-radius:50%;width:44px;height:44px;display:grid;place-items:center;font-size:22px;transition:transform .3s cubic-bezier(.23,1,.32,1),background-color .3s,color .3s}
+.th-card:hover .th-card-arrow,.th-card:focus-visible .th-card-arrow{transform:translate(4px,-4px) rotate(45deg);background:var(--th-ink);color:var(--th-paper)}
+.th-card:focus-visible{outline:3px solid var(--th-ink);outline-offset:5px}
 .th-strip{background:var(--th-ink);color:var(--th-paper);padding:20px 0;overflow:hidden;white-space:nowrap}
 .th-marquee{display:flex;gap:34px;align-items:center;width:max-content;animation:th-scroll 24s linear infinite}
 .th-marquee span{font-family:Anton,Impact,sans-serif;font-size:clamp(30px,4vw,58px);letter-spacing:.02em}
@@ -80,8 +86,8 @@ Error generating stack: `+u.message+`
 .th-footer{background:var(--th-ink);color:var(--th-paper);padding:28px 0;font-size:12px}
 .th-footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}
 .th-footer a{color:inherit;text-decoration:none;border-bottom:1px solid currentColor}
-@media (max-width:800px){.th-explore,.th-how,.th-party,.th-faq{padding:74px 0 82px}.th-explore-head,.th-how-grid,.th-party-inner,.th-faq-grid{display:block}.th-explore-head p{margin-top:22px}.th-card-grid{grid-template-columns:1fr;gap:24px}.th-card,.th-card:nth-child(2),.th-card:nth-child(3){min-height:360px;margin-top:0;transform:none}.th-card:hover{transform:translateY(-5px)}.th-how h2,.th-faq h2{margin-bottom:44px}.th-party-copy{margin-top:28px}.th-footer-inner{align-items:flex-start;flex-direction:column}}
-@media (prefers-reduced-motion:reduce){.th-marquee{animation:none}.th-card,.th-chip,.th-button{transition:none}}
+@media (max-width:800px){.th-explore,.th-how,.th-party,.th-faq{padding:74px 0 82px}.th-explore-head,.th-how-grid,.th-party-inner,.th-faq-grid{display:block}.th-explore-head p{margin-top:22px}.th-card-grid{grid-template-columns:1fr;gap:24px}.th-card,.th-card:nth-child(2),.th-card:nth-child(3){min-height:360px;margin-top:0;transform:none}.th-card:hover,.th-card:focus-visible{transform:translateY(-5px) rotate(0)}.th-how h2,.th-faq h2{margin-bottom:44px}.th-party-copy{margin-top:28px}.th-footer-inner{align-items:flex-start;flex-direction:column}}
+@media (prefers-reduced-motion:reduce){.th-marquee{animation:none}.th-card,.th-chip,.th-button,.th-card:before,.th-card-visual img,.th-card-copy,.th-card-arrow{transition:none}.th-card:hover .th-card-visual img,.th-card:focus-visible .th-card-visual img{transform:none}.th-card:hover .th-card-copy,.th-card:focus-visible .th-card-copy{transform:none}.th-card:hover .th-card-arrow,.th-card:focus-visible .th-card-arrow{transform:none}}
 </style>
 <section class="th-sections" id="explore">
   <div class="th-explore">
