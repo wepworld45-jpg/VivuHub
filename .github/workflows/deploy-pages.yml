@@ -33,10 +33,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build static site
-        run: |
-          NODE_ENV=production pnpm build
-          sed -i '/manus-storage/d' dist/public/index.html
+      - name: Verify and build static site
+        run: NODE_ENV=production pnpm run verify
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

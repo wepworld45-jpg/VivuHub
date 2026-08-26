@@ -272,3 +272,11 @@
 - [x] Reduce unnecessary work and improve loading/playback feedback for mobile and desktop.
 - [x] Verify responsive performance and preserve all existing interactions.
 - [x] Save a checkpoint for the performance improvements.
+
+## Senior website hardening audit
+
+- [x] Re-audit project guidance, routes, scripts, logs, and known limitations.
+- [x] Test homepage, Books + Music, Books Map, Projects, Cinema, Pattern Engine, and Vivu OS flows.
+- [x] Fix confirmed bugs in navigation, accessibility, responsive behavior, loading, and playback.
+- [x] Run production build, type checks, and desktop/mobile smoke verification.
+- [x] Save a checkpoint for the hardening pass.
