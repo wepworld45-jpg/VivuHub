@@ -1,11 +1,4 @@
-# Book synopsis modal verification
 
-- Local route tested: `/books-music.html`
-- Ten curated shelf items are present.
-- Every item receives `role="button"`, `tabindex="0"`, and an accessible `aria-label`.
-- Enter and Space keyboard events open the modal.
-- The modal populates the selected title, personal synopsis, “Why it stays,” and “Read for.”
-- The Open Library record URL is populated for the selected title.
-- Close button, Escape, and backdrop click dismiss the modal.
-- First book tested: The Psychology of Money.
-- Smoke test result: passed.
+## Deployment note
+
+The restoration commit `7d987e8` is pushed to `wepworld45-jpg/VivuHub` on `main`. GitHub Pages accepted the update and currently reports the legacy Pages build as `building`/`queued`; the live HTML may therefore continue serving the previous version until propagation completes.

@@ -229,4 +229,4 @@
 
 - [x] Restore the clickable book synopsis modal on the Books + Music page.
 - [x] Verify modal keyboard, backdrop, close, and mobile behavior.
-- [ ] Save a checkpoint for the restored book synopsis modal.
+- [x] Save a checkpoint for the restored book synopsis modal.
