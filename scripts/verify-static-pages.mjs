@@ -21,6 +21,21 @@ const assert = (condition, message) => {
 assert(fs.existsSync(outputDir), `Missing production output: ${outputDir}`);
 assert(fs.existsSync(path.join(outputDir, 'favicon.svg')), 'Missing repository-safe favicon.svg');
 
+const procfilePath = path.resolve('Procfile');
+assert(fs.existsSync(procfilePath), 'Missing Antideploy Procfile');
+if (fs.existsSync(procfilePath)) {
+  const procfile = fs.readFileSync(procfilePath, 'utf8');
+  assert(procfile.includes('web: node dist/index.js'), 'Procfile must start the bundled Node server directly');
+}
+
+const serverPath = path.resolve('server/index.ts');
+assert(fs.existsSync(serverPath), 'Missing server entry point');
+if (fs.existsSync(serverPath)) {
+  const server = fs.readFileSync(serverPath, 'utf8');
+  assert(server.includes('process.env.PORT'), 'Server must read the runtime PORT');
+  assert(server.includes('0.0.0.0'), 'Server must bind to a public host');
+}
+
 for (const page of requiredPages) {
   const filePath = path.join(outputDir, page);
   assert(fs.existsSync(filePath), `Missing required route: ${page}`);
@@ -28,6 +43,7 @@ for (const page of requiredPages) {
 
   const html = fs.readFileSync(filePath, 'utf8');
   assert(!html.includes('manus-storage'), `${page} contains an unsafe Manus storage reference`);
+  assert(html.includes('href="./favicon.svg"'), `${page} is missing the repository-safe favicon link`);
   assert(!/<(?:a|link|script|img|source|video|audio)[^>]+(?:href|src)="\/[^"]+"[^>]*>/i.test(html), `${page} contains a root-absolute asset or link that can break on GitHub Pages`);
 }
 
@@ -48,4 +64,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Static verification passed for ${requiredPages.length} required routes, favicon, Books Map, and Books + Music safeguards.`);
+console.log(`Static verification passed for ${requiredPages.length} required routes, favicon, Books Map, Books + Music, and Antideploy safeguards.`);

@@ -280,3 +280,17 @@
 - [x] Fix confirmed bugs in navigation, accessibility, responsive behavior, loading, and playback.
 - [x] Run production build, type checks, and desktop/mobile smoke verification.
 - [x] Save a checkpoint for the hardening pass.
+
+## GitHub Pages latest-build verification
+
+- [x] Compare the live Pages site with checkpoint 4bc3f30e.
+- [x] Verify core routes, favicon, and hardening markers are served live.
+- [x] Report whether the latest build is live or requires publishing.
+
+## Antideploy startup and smoothness hardening
+
+- [x] Audit Antideploy startup/build expectations and current runtime configuration.
+- [x] Add npm-compatible build/start commands and dynamic PORT handling.
+- [x] Fix confirmed mobile, animation, accessibility, loading, and playback issues.
+- [x] Verify the build and representative desktop/mobile flows.
+- [ ] Save a checkpoint for the Antideploy hardening pass.

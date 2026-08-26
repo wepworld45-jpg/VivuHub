@@ -1,0 +1,4 @@
+
+## Latest-build check — 2026-08-27
+
+Local checkpoint 4bc3f30e is the current hardening build, but the GitHub repository API reports main at bc7c907f9d6ca9416c37c668a9a569aca1ce5d19 (the earlier reading-status commit). The latest successful repository workflow also ran against bc7c907. Live homepage https://wepworld45-jpg.github.io/VivuHub/ loads successfully and shows the VivuHub 3D hero and personalized sections, but the live document title remains “VivuHub — Find your next favorite.” Live Books Map loads successfully and shows status filters, status selectors, synopsis buttons, and keeper cards, but its page content does not include the newer “Read with a pulse” compact music widget present in local checkpoint 4bc3f30e. This indicates GitHub Pages is serving an older successful build, not the latest hardening checkpoint.
