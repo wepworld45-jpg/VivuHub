@@ -21,5 +21,90 @@ Error generating stack: `+u.message+`
 </script>
   <script>(function(){function m(a){var h=a.getAttribute("href");if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol==="http:"||u.protocol==="https:")&&u.host!==location.host){a.target="_blank";a.rel="noopener noreferrer";}}catch(e){}}function s(){document.querySelectorAll("a[href]").forEach(m);}if(document.readyState!=="loading"){s();}else{document.addEventListener("DOMContentLoaded",s);}document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest("a[href]");if(a){m(a);}},true);})();</script>
   
+<style>
+/* ToonHub continuation: comic-editorial print language, warm paper, saturated ink red, condensed headlines, tactile interactions. */
+:root{--th-paper:#f8eee4;--th-ink:#171411;--th-red:#ed4b37;--th-yellow:#f6c945;--th-blue:#4774c8;--th-line:rgba(23,20,17,.18)}
+.th-sections{background:var(--th-paper);color:var(--th-ink);font-family:Inter,ui-sans-serif,system-ui,sans-serif}
+.th-wrap{width:min(1180px,calc(100% - 40px));margin:0 auto}
+.th-kicker{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.th-display{font-family:Anton,Impact,sans-serif;text-transform:uppercase;letter-spacing:-.035em;line-height:.9}
+.th-explore{padding:110px 0 120px;position:relative;overflow:hidden}
+.th-explore:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(23,20,17,.13) .8px,transparent .8px);background-size:9px 9px;opacity:.25;pointer-events:none}
+.th-explore-head{position:relative;display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:44px}
+.th-explore-head h2{font-size:clamp(56px,8vw,112px);max-width:650px;margin:12px 0 0}
+.th-explore-head p{max-width:290px;font-size:15px;line-height:1.5;margin:0 0 4px}
+.th-chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:34px;position:relative}
+.th-chip{border:1.5px solid var(--th-ink);padding:10px 16px;background:transparent;border-radius:999px;font:700 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;transition:background .18s,color .18s,transform .18s}
+.th-chip:hover,.th-chip[aria-pressed=true]{background:var(--th-ink);color:var(--th-paper);transform:translateY(-2px)}
+.th-card-grid{display:grid;grid-template-columns:1.1fr .85fr .85fr;gap:18px;position:relative}
+.th-card{min-height:420px;position:relative;overflow:hidden;border:2px solid var(--th-ink);background:var(--th-red);display:flex;flex-direction:column;justify-content:space-between;padding:24px;transition:transform .22s cubic-bezier(.23,1,.32,1),box-shadow .22s}
+.th-card:nth-child(2){background:var(--th-yellow);transform:rotate(1.2deg);margin-top:28px}
+.th-card:nth-child(3){background:var(--th-blue);color:#fff;transform:rotate(-1deg);margin-top:56px}
+.th-card:hover{transform:translateY(-8px) rotate(0);box-shadow:10px 12px 0 var(--th-ink)}
+.th-card-visual{position:absolute;inset:auto 0 0;display:flex;justify-content:center;align-items:end;height:72%;pointer-events:none}
+.th-card-visual img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;opacity:.86}
+.th-card:nth-child(3) img{mix-blend-mode:normal;opacity:.9}
+.th-card-copy{position:relative;z-index:1;max-width:260px}
+.th-card h3{font-size:clamp(32px,4vw,58px);margin:0 0 10px}
+.th-card p{font-size:14px;line-height:1.45;max-width:235px}
+.th-card-arrow{position:relative;z-index:1;align-self:end;border:1.5px solid currentColor;border-radius:50%;width:44px;height:44px;display:grid;place-items:center;font-size:22px}
+.th-strip{background:var(--th-ink);color:var(--th-paper);padding:20px 0;overflow:hidden;white-space:nowrap}
+.th-marquee{display:flex;gap:34px;align-items:center;width:max-content;animation:th-scroll 24s linear infinite}
+.th-marquee span{font-family:Anton,Impact,sans-serif;font-size:clamp(30px,4vw,58px);letter-spacing:.02em}
+.th-marquee i{width:12px;height:12px;background:var(--th-yellow);display:inline-block;transform:rotate(45deg)}
+@keyframes th-scroll{to{transform:translateX(-50%)}}
+.th-how{padding:112px 0 126px;background:var(--th-yellow)}
+.th-how-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:80px;align-items:start}
+.th-how h2{font-size:clamp(58px,8vw,116px);margin:12px 0 0}
+.th-steps{border-top:2px solid var(--th-ink)}
+.th-step{display:grid;grid-template-columns:70px 1fr;gap:25px;border-bottom:1.5px solid var(--th-ink);padding:27px 0;align-items:start}
+.th-step-num{font-family:Anton,Impact,sans-serif;font-size:54px;line-height:.8}
+.th-step h3{font-size:24px;margin:0 0 8px}
+.th-step p{margin:0;max-width:500px;line-height:1.55;font-size:15px}
+.th-party{padding:112px 0;background:var(--th-red);color:var(--th-paper);position:relative;overflow:hidden}
+.th-party:after{content:"WATCH / SHARE / REPEAT";position:absolute;right:-45px;bottom:28px;font:normal clamp(70px,13vw,190px)/.8 Anton,Impact,sans-serif;opacity:.13;white-space:nowrap;transform:rotate(-8deg)}
+.th-party-inner{display:flex;justify-content:space-between;gap:50px;align-items:end;position:relative;z-index:1}
+.th-party h2{font-size:clamp(60px,9vw,132px);max-width:760px;margin:14px 0 0}
+.th-party-copy{max-width:320px;line-height:1.55;font-size:15px;margin-bottom:9px}
+.th-button{display:inline-flex;align-items:center;gap:13px;color:var(--th-ink);background:var(--th-paper);border:2px solid var(--th-ink);padding:15px 20px;margin-top:24px;font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:.09em;transition:transform .18s,box-shadow .18s}
+.th-button:hover{transform:translate(-4px,-4px);box-shadow:6px 6px 0 var(--th-ink)}
+.th-faq{padding:100px 0 120px;background:var(--th-paper)}
+.th-faq-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:80px}
+.th-faq h2{font-size:clamp(52px,7vw,96px);margin:12px 0 0}
+.th-faq details{border-top:1.5px solid var(--th-ink);padding:20px 0}
+.th-faq details:last-child{border-bottom:1.5px solid var(--th-ink)}
+.th-faq summary{cursor:pointer;list-style:none;font-weight:800;font-size:18px;display:flex;justify-content:space-between;gap:20px}
+.th-faq summary::-webkit-details-marker{display:none}
+.th-faq summary:after{content:"+";font-size:24px;font-weight:400}
+.th-faq details[open] summary:after{content:"−"}
+.th-faq details p{max-width:620px;line-height:1.6;font-size:15px;margin:14px 35px 0 0}
+.th-footer{background:var(--th-ink);color:var(--th-paper);padding:28px 0;font-size:12px}
+.th-footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}
+.th-footer a{color:inherit;text-decoration:none;border-bottom:1px solid currentColor}
+@media (max-width:800px){.th-explore,.th-how,.th-party,.th-faq{padding:74px 0 82px}.th-explore-head,.th-how-grid,.th-party-inner,.th-faq-grid{display:block}.th-explore-head p{margin-top:22px}.th-card-grid{grid-template-columns:1fr;gap:24px}.th-card,.th-card:nth-child(2),.th-card:nth-child(3){min-height:360px;margin-top:0;transform:none}.th-card:hover{transform:translateY(-5px)}.th-how h2,.th-faq h2{margin-bottom:44px}.th-party-copy{margin-top:28px}.th-footer-inner{align-items:flex-start;flex-direction:column}}
+@media (prefers-reduced-motion:reduce){.th-marquee{animation:none}.th-card,.th-chip,.th-button{transition:none}}
+</style>
+<section class="th-sections" id="explore">
+  <div class="th-explore">
+    <div class="th-wrap">
+      <div class="th-explore-head"><div><div class="th-kicker">The ToonHub index / 001</div><h2 class="th-display">Pick a new<br>rabbit hole.</h2></div><p>From tiny cult classics to maximalist worlds, build a watchlist that feels like you.</p></div>
+      <div class="th-chips" role="group" aria-label="Filter cartoon collections"><button class="th-chip" aria-pressed="true" data-filter="all">All worlds</button><button class="th-chip" aria-pressed="false" data-filter="odd">Oddly good</button><button class="th-chip" aria-pressed="false" data-filter="bright">Bright side</button><button class="th-chip" aria-pressed="false" data-filter="late">Late night</button></div>
+      <div class="th-card-grid">
+        <article class="th-card" data-world="odd"><div class="th-card-copy"><div class="th-kicker">01 / Oddly good</div><h3 class="th-display">Strange<br>is a genre.</h3><p>For the stories that make you pause, rewind, and immediately send the link.</p></div><div class="th-card-visual"><img src="https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/2.b977faab.png" alt="A stylized cartoon figurine" loading="lazy"></div><span class="th-card-arrow" aria-hidden="true">↗</span></article>
+        <article class="th-card" data-world="bright"><div class="th-card-copy"><div class="th-kicker">02 / Bright side</div><h3 class="th-display">Good<br>mood club.</h3><p>Sunshine, big feelings, and soundtracks that refuse to stay in the background.</p></div><div class="th-card-visual"><img src="https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/3.4df853b4.png" alt="A colorful cartoon figurine" loading="lazy"></div><span class="th-card-arrow" aria-hidden="true">↗</span></article>
+        <article class="th-card" data-world="late"><div class="th-card-copy"><div class="th-kicker">03 / Late night</div><h3 class="th-display">One more<br>episode.</h3><p>Low lights, strange planets, and the excuse you needed to stay up.</p></div><div class="th-card-visual"><img src="https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/4.4457fbce.png" alt="A cartoon figurine ready for an adventure" loading="lazy"></div><span class="th-card-arrow" aria-hidden="true">↗</span></article>
+      </div>
+    </div>
+  </div>
+  <div class="th-strip" aria-label="ToonHub feature list"><div class="th-marquee"><span>DISCOVER DEEPER</span><i></i><span>SAVE THE GOOD ONES</span><i></i><span>SHARE THE WEIRD STUFF</span><i></i><span>DISCOVER DEEPER</span><i></i><span>SAVE THE GOOD ONES</span><i></i><span>SHARE THE WEIRD STUFF</span><i></i></div></div>
+  <div class="th-how" id="how-it-works"><div class="th-wrap th-how-grid"><div><div class="th-kicker">A better way to browse</div><h2 class="th-display">Less<br>scroll.<br>More<br>spark.</h2></div><div class="th-steps"><div class="th-step"><div class="th-step-num">01</div><div><h3>Follow the feeling.</h3><p>Start with a mood, a color, or a beautifully weird premise. ToonHub makes the first click easy.</p></div></div><div class="th-step"><div class="th-step-num">02</div><div><h3>Collect your keepers.</h3><p>Save the shows that deserve a second look and keep your personal shelf delightfully unpredictable.</p></div></div><div class="th-step"><div class="th-step-num">03</div><div><h3>Pass it on.</h3><p>Send a watchlist to a friend, plan a themed night, or be the person with the perfect recommendation.</p></div></div></div></div></div>
+  <div class="th-party" id="watch-party"><div class="th-wrap th-party-inner"><div><div class="th-kicker">New / Watch party mode</div><h2 class="th-display">Make it<br>a group<br>project.</h2><a class="th-button" href="#faq">Build a watchlist <span aria-hidden="true">↗</span></a></div><p class="th-party-copy">Pick a theme. Drop three favorites. Let the group argue about the order. ToonHub keeps the good kind of chaos in one place.</p></div></div>
+  <div class="th-faq" id="faq"><div class="th-wrap th-faq-grid"><div><div class="th-kicker">Small print, big answers</div><h2 class="th-display">Good to<br>know.</h2></div><div><details open><summary>What is ToonHub?</summary><p>A visual-first place to discover animated worlds, collect favorites, and share recommendations that feel more personal than an endless algorithmic row.</p></details><details><summary>Can I make a watchlist?</summary><p>Yes. The watchlist flow is the next layer to connect to the page’s discovery cards and CTA, so the landing page is ready for that product experience.</p></details><details><summary>What should I watch first?</summary><p>Start with the hero carousel, then choose a collection above. There is no wrong doorway into a good rabbit hole.</p></details></div></div></div>
+  <footer class="th-footer"><div class="th-wrap th-footer-inner"><span>TOONHUB / FIND YOUR NEXT FAVORITE</span><a href="#explore">Back to the top ↗</a></div></footer>
+</section>
+<script>
+/* ToonHub continuation interaction: filter cards instantly and keep keyboard state visible. */
+(function(){var chips=[].slice.call(document.querySelectorAll('.th-chip'));var cards=[].slice.call(document.querySelectorAll('.th-card'));chips.forEach(function(chip){chip.addEventListener('click',function(){var filter=chip.getAttribute('data-filter');chips.forEach(function(item){item.setAttribute('aria-pressed',String(item===chip));});cards.forEach(function(card){var show=filter==='all'||card.getAttribute('data-world')===filter;card.hidden=!show;});});});})();
+</script>
 </body>
 </html>

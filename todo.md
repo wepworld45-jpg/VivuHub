@@ -18,3 +18,10 @@
 - [x] Diagnose why the provided GitHub Pages URL returns 404.
 - [x] Add a GitHub Pages deployment workflow or configure the repository for Pages.
 - [x] Verify the published page at the provided URL.
+
+## VivuHub Landing Page Enhancements
+
+- [x] Define additional sections that fit the existing ToonHub visual language.
+- [x] Implement the new sections and interactions without disrupting the hero.
+- [x] Verify desktop and mobile rendering.
+- [ ] Sync the update to VivuHub and verify GitHub Pages redeployment.
