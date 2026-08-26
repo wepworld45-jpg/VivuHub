@@ -118,5 +118,5 @@
 - [x] Audit current homepage and subpage entry points for the new pattern layer.
 - [x] Implement an interactive pattern map connecting influences, questions, experiments, and projects.
 - [x] Add the attached personal library content as structured, browsable data.
-- [ ] Verify responsive behavior, accessibility, and GitHub Pages deployment.
+- [x] Verify responsive behavior, accessibility, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the Pattern Engine release.
