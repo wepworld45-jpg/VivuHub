@@ -245,3 +245,10 @@
 - [ ] Add detailed synopsis previews or links to Books Map cards.
 - [ ] Verify accessible preview controls, filters, card expansion, and mobile behavior.
 - [ ] Save a checkpoint for the Books Map enhancement.
+
+## Books Map reading statuses
+
+- [x] Add editable To read, Reading, and Finished statuses to book cards.
+- [x] Add status filters that work with the existing mood filters.
+- [x] Persist status changes and verify accessible mobile interactions.
+- [ ] Save a checkpoint for the reading-status enhancement.

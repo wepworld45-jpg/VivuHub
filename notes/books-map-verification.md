@@ -10,3 +10,11 @@ A full-page desktop capture at 1280px shows the intended wide scatter of twenty 
 ## Synopsis and personal-note enhancement
 
 All twenty built-in keepers now have expanded personal notes and synopsis copy. Every visible card exposes a `Read synopsis` control after unboxing. The dialog opens with the correct title, author, mood, theme, synopsis, keeper note, and an Open Library search URL; it closes from the close button or backdrop and restores focus to the triggering preview control. The MONEY filter returns four cards, and all four retain meaningful keeper notes. Build and TypeScript checks pass.
+
+## Reading-status verification
+
+Cards now show a To read, Reading, or Finished badge. The first card’s status selector successfully changed the badge to Reading, persisted the status in `localStorage`, and the fresh Reading filter returned one keeper with an active Reading pill. The status was restored to To read afterward for a clean preview. Status controls are present in the expanded card and the Add a keeper form includes the same three status options.
+
+## Status visual verification
+
+Desktop capture shows separate Mood and Reading Status filter groups above the card wall, while every card carries a compact status badge. Mobile capture shows the groups wrapping cleanly and cards retaining readable status badges without horizontal overflow.
