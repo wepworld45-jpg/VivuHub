@@ -166,9 +166,9 @@
 
 ## Music spring, mood colors, and previews
 
-- [ ] Audit current Music cards and available preview URLs.
-- [ ] Define one-preview-at-a-time playback and accessible control behavior.
-- [ ] Add 1-second spring motion and mood-specific tape colors.
-- [ ] Add short preview playback without changing the hero.
-- [ ] Verify audio controls, mobile behavior, APIs, and GitHub Pages deployment.
+- [x] Audit current Music cards and available preview URLs.
+- [x] Define one-preview-at-a-time playback and accessible control behavior.
+- [x] Add 1-second spring motion and mood-specific tape colors.
+- [x] Add short preview playback without changing the hero.
+- [x] Verify audio controls, mobile behavior, APIs, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the Music enhancement.
