@@ -6,3 +6,7 @@ The MONEY filter reduces the collection to four keepers, while the PSYCHOLOGY fi
 ## Responsive visual verification
 
 A full-page desktop capture at 1280px shows the intended wide scatter of twenty cards, hard shadows, dotted background, compact filter pills, and the add-keeper control. A full-page mobile capture at 390px shows the header, filters, and keeper cards safely stacked into two columns with readable labels and no horizontal overflow.
+
+## Synopsis and personal-note enhancement
+
+All twenty built-in keepers now have expanded personal notes and synopsis copy. Every visible card exposes a `Read synopsis` control after unboxing. The dialog opens with the correct title, author, mood, theme, synopsis, keeper note, and an Open Library search URL; it closes from the close button or backdrop and restores focus to the triggering preview control. The MONEY filter returns four cards, and all four retain meaningful keeper notes. Build and TypeScript checks pass.

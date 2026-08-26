@@ -238,3 +238,10 @@
 - [x] Connect the new page from an existing VivuHub entry point.
 - [x] Verify filters, keeper expansion, add-keeper form, accessibility, and mobile layout.
 - [x] Save a checkpoint for the Books Map integration.
+
+## Books Map synopsis and keeper notes enhancement
+
+- [ ] Add personal keeper notes for the remaining Books Map books.
+- [ ] Add detailed synopsis previews or links to Books Map cards.
+- [ ] Verify accessible preview controls, filters, card expansion, and mobile behavior.
+- [ ] Save a checkpoint for the Books Map enhancement.
