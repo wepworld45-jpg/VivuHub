@@ -137,3 +137,12 @@
 - [x] Implement accessible click and keyboard interactions with a visible detail panel.
 - [x] Verify mobile behavior and deploy the interaction update to GitHub Pages.
 - [ ] Save a checkpoint for the creative-process enhancement.
+
+## Separate Books and Music showcase
+
+- [x] Audit the current Books + Music page and shared visual system.
+- [x] Split the content into dedicated Books and Music sections.
+- [x] Build a non-playback visual showcase of the supplied music taste.
+- [x] Preserve hero colors, fonts, typography, borders, and transitions across the new page.
+- [ ] Verify responsive effects, accessibility, and GitHub Pages deployment.
+- [ ] Save a checkpoint for the Books and Music showcase.
