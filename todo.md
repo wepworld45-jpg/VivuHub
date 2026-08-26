@@ -208,3 +208,19 @@
 - [x] Add preload, lazy-loading, decoding, and layout-stability improvements for desktop and mobile.
 - [x] Verify every character asset loads on GitHub Pages at desktop and mobile sizes.
 - [ ] Save a checkpoint for the character loading optimization.
+
+## Senior developer release review
+
+- [ ] Review repository structure, scripts, and deployment configuration.
+- [ ] Review frontend interactions, assets, responsiveness, accessibility, and maintainability.
+- [ ] Validate build output, performance signals, and live GitHub Pages deployment.
+- [ ] Produce the final senior developer review with prioritized recommendations.
+
+## Project Command Center from uploaded reference
+
+- [x] Analyze the uploaded reference and current Projects page structure.
+- [x] Define richer project states, detail layers, and build-log content.
+- [x] Add interactive project cards, progress states, and build logs.
+- [x] Preserve the existing hero, colors, typography, and editorial system.
+- [ ] Verify desktop/mobile behavior and GitHub Pages deployment.
+- [ ] Save a checkpoint for the Projects Command Center update.
