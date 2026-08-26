@@ -38,4 +38,4 @@
 - [x] Inspect the current card interaction states.
 - [x] Add touch-friendly pressed feedback without harming hover or focus states.
 - [x] Verify mobile and desktop interaction styling.
-- [ ] Sync the update and verify GitHub Pages redeployment.
+- [x] Sync the update and verify GitHub Pages redeployment.
