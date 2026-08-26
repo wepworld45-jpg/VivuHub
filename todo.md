@@ -155,3 +155,11 @@
 - [x] Preserve the hero and shared VivuHub visual system.
 - [x] Verify responses, mobile behavior, accessibility, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the public API integration.
+
+## Uploaded Books/Music interaction reference
+
+- [ ] Read and map the uploaded snippet’s interaction model and visual behavior.
+- [ ] Compare the reference with the current API-backed Books and Music page.
+- [ ] Adapt the strongest interaction patterns without changing the hero section.
+- [ ] Verify APIs, responsive behavior, accessibility, and GitHub Pages deployment.
+- [ ] Save a checkpoint for the reference-based Books/Music update.
