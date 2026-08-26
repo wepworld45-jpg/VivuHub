@@ -34,3 +34,23 @@ Desktop capture shows the dark listening layer with a single native audio player
 ## Fresh-load smoke test
 
 A fresh Books Map load confirmed one audio player, eight track buttons, eight enabled iTunes previews, 20 book cards, seven mood-filter pills, and four reading-status filter pills. The player status reported “8 short previews ready • tap a signal to listen.”
+
+## Performance baseline
+
+Fresh desktop load completed quickly in the local preview, but the page launches eight parallel iTunes Search requests for the eight player tracks. The document is about 43 KB decoded, with 12 measured resources, one audio element, and no image elements on the Books Map route. The main perceived delay is the preview-request burst and player initialization rather than image payloads; the existing book card wall is already static and immediately rendered.
+
+## Performance optimization verification
+
+The optimized route renders book content immediately while preview lookup starts during idle time. Fresh local verification reported DOM-ready at about 40 ms, 20 book cards, 11 mood/status filter controls, eight iTunes requests, zero disabled preview buttons after lookup, and “8/8 short previews ready • more loaded quietly.” Preview metadata is cached for 24 hours; future loads can avoid the request burst entirely. Each request now times out after 4.5 seconds instead of holding the page indefinitely.
+
+## Responsive performance verification
+
+Mobile and desktop full-page captures show the listening layer, filters, and tactile book cards staying within the viewport with no horizontal overflow. Preview metadata can load quietly after the first paint, and cached previews report immediately on subsequent loads. The existing Reading-first card ordering and book interaction density remain visually stable at both sizes.
+
+## Final playback smoothness check
+
+After the performance changes, a fresh local reload reported the preview cache immediately and a real click started YALA (Slowed) without waiting for a new lookup. The player showed the active state and “Playing short preview” status while all book filters and cards stayed rendered.
+
+## Final desktop/mobile smoothing pass
+
+The final desktop and mobile captures show the page rendering with the same tactile composition, no horizontal overflow, and no layout shift while the player metadata is cached or loaded. The listening layer remains compact on mobile, and the 20-card book wall, filters, Reading-first ordering, and synopsis controls remain intact.

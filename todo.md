@@ -265,3 +265,10 @@
 - [x] Add a compact music player widget with preview track selection.
 - [x] Verify playback controls, track switching, accessibility, filters, and mobile layout.
 - [x] Save a checkpoint for the Books Map music player.
+
+## Books Map performance smoothing
+
+- [x] Profile loading, API requests, rendering, and audio-preview startup.
+- [x] Reduce unnecessary work and improve loading/playback feedback for mobile and desktop.
+- [x] Verify responsive performance and preserve all existing interactions.
+- [x] Save a checkpoint for the performance improvements.
