@@ -24,4 +24,4 @@
 - [x] Define additional sections that fit the existing ToonHub visual language.
 - [x] Implement the new sections and interactions without disrupting the hero.
 - [x] Verify desktop and mobile rendering.
-- [ ] Sync the update to VivuHub and verify GitHub Pages redeployment.
+- [x] Sync the update to VivuHub and verify GitHub Pages redeployment.
