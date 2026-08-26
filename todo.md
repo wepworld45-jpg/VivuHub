@@ -224,3 +224,9 @@
 - [x] Preserve the existing hero, colors, typography, and editorial system.
 - [x] Verify desktop/mobile behavior and GitHub Pages deployment.
 - [ ] Save a checkpoint for the Projects Command Center update.
+
+## Book synopsis modal restoration
+
+- [x] Restore the clickable book synopsis modal on the Books + Music page.
+- [x] Verify modal keyboard, backdrop, close, and mobile behavior.
+- [ ] Save a checkpoint for the restored book synopsis modal.
