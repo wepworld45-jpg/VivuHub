@@ -67,3 +67,17 @@
 - [x] Wire the hero CTA to an accessible discovery modal.
 - [x] Verify open, close, keyboard, and responsive behavior.
 - [x] Sync the update and verify GitHub Pages redeployment.
+
+## Personal VivuHub Repositioning
+
+- [ ] Define the external-brain positioning and personalized information architecture.
+- [ ] Replace generic entertainment messaging with the user’s media, ideas, experiments, and projects.
+- [ ] Verify the personalized experience on desktop and mobile.
+- [x] Sync the update and verify GitHub Pages redeployment.
+
+## Approved VivuHub Personalization
+
+- [x] Preserve the existing 3D hero animation and interactions.
+- [x] Personalize the surrounding content around cinema, ideas, experiments, books, music, and projects.
+- [x] Verify the updated page on desktop and mobile.
+- [x] Sync the update and verify GitHub Pages redeployment.
