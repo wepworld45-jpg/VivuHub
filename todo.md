@@ -89,3 +89,10 @@
 - [x] Connect homepage cards, filters, and CTAs to the subpage routes.
 - [x] Verify all routes on desktop and mobile.
 - [x] Sync the update and verify GitHub Pages redeployment.
+
+## Cinema Feature Imagery
+
+- [x] Define a cinematic still treatment that matches VivuHub’s editorial visual system.
+- [x] Prepare image assets and integrate them into the Cinema feature panels.
+- [x] Verify image crops, captions, contrast, and responsive behavior.
+- [x] Sync the update and verify GitHub Pages redeployment.
