@@ -12,3 +12,9 @@
 - [x] Confirm the intended branch and sync strategy.
 - [x] Push the ToonHub project into the VivuHub repository without destructive history rewriting.
 - [x] Verify the remote branch and final commit.
+
+## GitHub Pages Deployment
+
+- [x] Diagnose why the provided GitHub Pages URL returns 404.
+- [x] Add a GitHub Pages deployment workflow or configure the repository for Pages.
+- [ ] Verify the published page at the provided URL.
