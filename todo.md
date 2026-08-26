@@ -188,3 +188,11 @@
 - [x] Extend preview lookup coverage where title/artist metadata is available.
 - [x] Verify filters, title rendering, mobile layout, and GitHub Pages deployment.
 - [ ] Save a checkpoint for the expanded Music taste list.
+
+## Book reading preview modal
+
+- [ ] Audit the current shelf items and Open Library metadata flow.
+- [ ] Define personal synopsis, live metadata, and modal close behavior.
+- [ ] Implement clickable book items with accessible synopsis/read-preview modal.
+- [ ] Verify keyboard, mobile, API fallback, and GitHub Pages behavior.
+- [ ] Save a checkpoint for the book preview modal.
