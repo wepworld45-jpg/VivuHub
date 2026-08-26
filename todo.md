@@ -191,8 +191,8 @@
 
 ## Book reading preview modal
 
-- [ ] Audit the current shelf items and Open Library metadata flow.
-- [ ] Define personal synopsis, live metadata, and modal close behavior.
-- [ ] Implement clickable book items with accessible synopsis/read-preview modal.
-- [ ] Verify keyboard, mobile, API fallback, and GitHub Pages behavior.
+- [x] Audit the current shelf items and Open Library metadata flow.
+- [x] Define personal synopsis, live metadata, and modal close behavior.
+- [x] Implement clickable book items with accessible synopsis/read-preview modal.
+- [x] Verify keyboard, mobile, API fallback, and GitHub Pages behavior.
 - [ ] Save a checkpoint for the book preview modal.
